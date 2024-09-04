@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cdb4db;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.main-box {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    /* Adjust height based on content */
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* Add some padding */
+}
+
+.label-row {
+    width: 100%;
+    /* Ensure label row takes full width */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* Space below the label */
+}
+
+.input-button-row {
+    width: 100%;
+    /* Ensure input/button row takes full width */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Space below the input/button row */
+}
+
+input {
+    margin-right: 10px;
+    /* Space between input and button */
+}
+
+#result {
+    width: 100%;
+    /* Ensure result takes full width */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Space above the result */
+}
+
+.definition-div {
+    background-color: #9d8189;
+    width: 500px;
+    height: auto;
+    /* Adjust height based on content */
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.palindrome-definition {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.palindrome-input {
+    border: none;
+    border-bottom: 2px solid #ffc2d1;
+}
+
+.palindrome-btn {
+    padding: 5px 18px;
+    border-radius: 10px;
+    background-color: #ffc2d1;
+    border: none;
+}
